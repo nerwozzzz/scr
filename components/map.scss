@@ -1,0 +1,64 @@
+.map-section{
+    display: flex;
+//     width: 1200px;
+//    height: 400px;
+   
+}
+#map{
+    position: absolute;
+    left: 0%;
+    width: 400px;
+    height: 400px;
+   
+}
+.mapp{
+    width: 100%;
+    height: 100%;
+}
+.map{
+    display: inline-flex;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+}
+.map__social{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 30%;
+    padding-top: 170px;
+    
+}
+.socials{
+    display: inline-flex;
+}
+.socials__item{
+    margin-left: 5%;
+}
+.socials__link {
+    display: block;
+  
+    &:hover {
+      .socials__icon {
+        opacity: 1;
+      }
+    }
+}
+.socials__icon{
+    width: 70px;
+    padding-top: 20%;
+    fill: #000;
+    opacity: .3;
+}
+.map__place{
+    font-size: 30px;
+    color: rgb(43, 41, 41);
+    font-weight: bold;
+}
+.phone-number__map{
+    font-size: 30px;
+    color: rgb(43, 41, 41);
+    font-weight: bold;
+    margin-left: 30%;
+}
